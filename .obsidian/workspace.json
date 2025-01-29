@@ -1,0 +1,177 @@
+{
+  "main": {
+    "id": "251e9a9df55a9372",
+    "type": "split",
+    "children": [
+      {
+        "id": "4edd78b24e2a5cde",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "50ebf991b472eb7b",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Новая вкладка"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "00fcedfc45c990c2",
+    "type": "split",
+    "children": [
+      {
+        "id": "97b66b9bd7f58c75",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "879f3bac8b35f51f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Файловый менеджер"
+            }
+          },
+          {
+            "id": "c16d52ce50a67661",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Поиск"
+            }
+          },
+          {
+            "id": "822c7cfb1495d60a",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Закладки"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "c6bea07405adfcbb",
+    "type": "split",
+    "children": [
+      {
+        "id": "75e62e96a11125e9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f37cdcfd333412ca",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "learn/Обучение/OAuth2.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Обратные ссылки для OAuth2"
+            }
+          },
+          {
+            "id": "22f26d056ce47609",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "learn/Обучение/OAuth2.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Исходящие ссылки из OAuth2"
+            }
+          },
+          {
+            "id": "fff66b9cf8ab9f89",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Теги"
+            }
+          },
+          {
+            "id": "c02768187574d8bb",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "learn/Обучение/OAuth2.md"
+              },
+              "icon": "lucide-list",
+              "title": "Структура OAuth2"
+            }
+          },
+          {
+            "id": "6973831138003276",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Меню быстрого перехода": false,
+      "graph:Граф": false,
+      "canvas:Создать новый холст": false,
+      "daily-notes:Сегодняшняя заметка": false,
+      "templates:Вставить шаблон": false,
+      "command-palette:Открыть палитру команд": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "879f3bac8b35f51f",
+  "lastOpenFiles": [
+    "learn/Обучение/Laravel.canvas",
+    "learn/Обучение/OAuth2.md"
+  ]
+}

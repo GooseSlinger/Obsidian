@@ -1,9 +1,0 @@
-{
-	"nodes":[
-		{"id":"8a361a29118ad4bb","type":"file","file":"OAuth2.md","x":-320,"y":-420,"width":400,"height":400},
-		{"id":"922357617b662c34","x":120,"y":-640,"width":250,"height":60,"color":"5","type":"text","text":"Laravel API"}
-	],
-	"edges":[
-		{"id":"6fb18dedeee53ff3","fromNode":"922357617b662c34","fromSide":"bottom","toNode":"8a361a29118ad4bb","toSide":"top"}
-	]
-}
