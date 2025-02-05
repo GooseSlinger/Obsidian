@@ -17,18 +17,18 @@ composer require laravel/passport
 	php artisan passport:install
 ```
 
-полученные в консоли token и id записываем в .env:
+полученные в консоли token и id(нужен именно грант пароль) записываем в .env:
 
 ```
-PASS_ID=*
-PASS_SECRET=**********
+PASSPORT_CLIENT_ID=*
+PASSPORT_CLIENT_SECRET=**********
 ```
 
 теперь чтобы использовать их в коде нужно запихнуть их в конфиг, ищем service.php и запихиваем его туда:
 ```
 'passport' => [
-    'client_id' => env('PASS_ID'),
-    'client_secret' => env('PASS_GRANT'),
+    'client_id' => env('PASSPORT_CLIENT_ID'),
+    'client_secret' => env('PASSPORT_CLIENT_SECRET'),
 ],
 ```
 #### 4. Обновление модели User
@@ -56,33 +56,63 @@ Route::post('login', [AuthController::class, 'login']);
 Route::post('register', [AuthController::class, 'register']);
 ```
 
-#### 6. Создание контроллера AuthController
+
+#### 6. Добавление в config/auth.php
+
+```php
+'guards' => [
+
+	'web' => [	
+		'driver' => 'session',		
+		'provider' => 'users',	
+	],  
+
+	'api' => [	
+		'driver' => 'passport',		
+		'provider' => 'users',	
+	],
+],
+```
+
+#### 7. Провайдер
+
+Для того чтобы определить тип гранта для авторизации нужно в AppServiceProvider прописать в boot
+
+```
+Passport::enablePasswordGrant();
+```
+
+Это у меня код на парольный грант, остальные можно посмотреть в документации
+#### 8. Создание контроллера AuthController
 
 Создайте контроллер `AuthController` с методами для регистрации и входа:
 ```php
 public function login(Request $request)
 
 {
-$request->validate([
-'username' => 'required|min:1|max:255',
-'password' => 'required|min:1|max:255',
-]);  
-
-$http = new \GuzzleHttp\Client; 
-
-$response = $http->post(config('app.url') . '/oauth/token', [
-'form_params' => [
-'grant_type' => 'password',
-'client_id' => config('services.passport.client_id'),
-'client_secret' => config('services.passport.client_secret'),
-'username' => $request->username,
-'password' => $request->password,
-'scope' => '',
-],
-]);  
-
-return json_decode((string) $response->getBody(), true);
+	$request->validate([
+	'username' => 'required|min:1|max:255',
+	'password' => 'required|min:1|max:255',
+	]);  
+	
+	$http = new \GuzzleHttp\Client; 
+	
+	$response = $http->post(config('app.url') . '/oauth/token', [
+		'form_params' => [
+		'grant_type' => 'password',
+		'client_id' => config('services.passport.client_id'),
+		'client_secret' => config('services.passport.client_secret'),
+		'username' => $request->username,
+		'password' => $request->password,
+		'scope' => '',
+		],
+	]);  
+	
+	return json_decode((string) $response->getBody(), true);
 }
 ```
+
+Если работать в докере то вместо ссылки где app.url нужно писать имя контейнера
+
 
 
