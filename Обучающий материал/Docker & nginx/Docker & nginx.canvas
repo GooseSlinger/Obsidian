@@ -1,0 +1,7 @@
+{
+	"nodes":[
+		{"id":"5eb7341dbceff8c5","type":"file","file":"Обучающий материал/Docker & nginx/Docker & nginx & php.md","x":-340,"y":-280,"width":660,"height":400},
+		{"id":"f9329132ab4894b9","x":-540,"y":-880,"width":400,"height":400,"type":"file","file":"Обучающий материал/Docker & nginx/Статусы HTTP запросов.md"}
+	],
+	"edges":[]
+}

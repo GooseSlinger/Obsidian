@@ -1,9 +1,13 @@
 {
 	"nodes":[
 		{"id":"922357617b662c34","type":"text","text":"Laravel API","x":120,"y":-640,"width":250,"height":60,"color":"5"},
-		{"id":"b1ab87672424b2c6","x":-400,"y":-400,"width":400,"height":400,"type":"file","file":"Обучающий материал/Laravel/OAuth2.md"}
+		{"id":"2d30ccef0f626573","type":"file","file":"Обучающий материал/Laravel/JWT токены.md","x":370,"y":-440,"width":400,"height":400},
+		{"id":"b1ab87672424b2c6","type":"file","file":"Обучающий материал/Laravel/OAuth2.md","x":-280,"y":-440,"width":400,"height":400},
+		{"id":"522abdad35ec9a00","type":"file","file":"Обучающий материал/Laravel/Сидеры.md","x":-480,"y":-1260,"width":400,"height":400},
+		{"id":"b123a01830b626c9","x":120,"y":-1260,"width":400,"height":400,"type":"file","file":"Обучающий материал/Laravel/Commands.md"}
 	],
 	"edges":[
-		{"id":"a892a076d1b0a294","fromNode":"922357617b662c34","fromSide":"bottom","toNode":"b1ab87672424b2c6","toSide":"top"}
+		{"id":"a892a076d1b0a294","fromNode":"922357617b662c34","fromSide":"bottom","toNode":"b1ab87672424b2c6","toSide":"top"},
+		{"id":"5386b3a3f17790d5","fromNode":"922357617b662c34","fromSide":"bottom","toNode":"2d30ccef0f626573","toSide":"top"}
 	]
 }

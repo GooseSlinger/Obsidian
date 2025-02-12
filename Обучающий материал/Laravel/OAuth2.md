@@ -114,5 +114,8 @@ public function login(Request $request)
 
 Если работать в докере то вместо ссылки где app.url нужно писать имя контейнера
 
+#### Создание клиента отдельно
 
-
+```bash
+php artisan passport:client
+```
