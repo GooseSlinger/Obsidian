@@ -117,5 +117,5 @@ public function login(Request $request)
 #### Создание клиента отдельно
 
 ```bash
-php artisan passport:client
+php artisan passport:client --password
 ```

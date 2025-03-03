@@ -1,7 +1,16 @@
 {
 	"nodes":[
-		{"id":"5eb7341dbceff8c5","type":"file","file":"Обучающий материал/Docker & nginx/Docker & nginx & php.md","x":-340,"y":-280,"width":660,"height":400},
-		{"id":"f9329132ab4894b9","x":-540,"y":-880,"width":400,"height":400,"type":"file","file":"Обучающий материал/Docker & nginx/Статусы HTTP запросов.md"}
+		{"id":"5eb7341dbceff8c5","type":"file","file":"Обучающий материал/Docker & nginx/Docker & nginx & php.md","x":-560,"y":-1140,"width":400,"height":400},
+		{"id":"e451ef867f87d50b","type":"file","file":"Обучающий материал/Docker & nginx/Docker команды.md","x":-100,"y":-1140,"width":400,"height":400},
+		{"id":"5222335a13cc0152","type":"file","file":"Обучающий материал/Docker & nginx/phpmyadmin.md","x":-1040,"y":-1140,"width":400,"height":400},
+		{"id":"603e012b6e10a154","type":"text","text":"Docker","x":-485,"y":-1400,"width":250,"height":60,"color":"4"},
+		{"id":"83d9b5779524b96b","x":675,"y":-1400,"width":250,"height":60,"color":"5","type":"text","text":"ngimx"},
+		{"id":"f9329132ab4894b9","type":"file","file":"Обучающий материал/Docker & nginx/Статусы HTTP запросов.md","x":600,"y":-1140,"width":400,"height":400}
 	],
-	"edges":[]
+	"edges":[
+		{"id":"83ee0aee62f9f325","fromNode":"603e012b6e10a154","fromSide":"bottom","toNode":"e451ef867f87d50b","toSide":"top"},
+		{"id":"8247d9e3f687ce77","fromNode":"603e012b6e10a154","fromSide":"bottom","toNode":"5eb7341dbceff8c5","toSide":"top"},
+		{"id":"ab1a0ec095cb2f03","fromNode":"603e012b6e10a154","fromSide":"bottom","toNode":"5222335a13cc0152","toSide":"top"},
+		{"id":"bf41d5b846149031","fromNode":"83d9b5779524b96b","fromSide":"bottom","toNode":"f9329132ab4894b9","toSide":"top"}
+	]
 }
