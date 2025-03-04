@@ -13,15 +13,44 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Обучающий материал/Linux/Управление Linux.md",
+                "file": "Обучающий материал/Laravel/Сидеры.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Управление Linux"
+              "title": "Сидеры"
+            }
+          },
+          {
+            "id": "b4169cb95c976181",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Обучающий материал/Laravel/БД миграции.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "БД миграции"
+            }
+          },
+          {
+            "id": "4bdfca78dfd5a404",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Обучающий материал/Laravel/Redis.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Redis"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -164,38 +193,38 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fff66b9cf8ab9f89",
+  "active": "4bdfca78dfd5a404",
   "lastOpenFiles": [
-    "Обучающий материал/Linux/git.md",
+    "Обучающий материал/Laravel/DB.md",
+    "Обучающий материал/Laravel/DB.md",
+    "Обучающий материал/Laravel/БД миграции.md",
+    "Обучающий материал/Laravel/Сидеры.md",
+    "Обучающий материал/Docker & nginx/Docker команды.md",
+    "Обучающий материал/Linux/Управление Linux.md",
+    "Обучающий материал/Linux/Передача файлов по ssh.md",
+    "Обучающий материал/Linux/Пользователи.md",
+    "Обучающий материал/Linux/Права.md",
+    "Обучающий материал/Linux/Redis.md",
     "Обучающий материал/Laravel/Redis.md",
+    "Обучающий материал/Linux/git.md",
     "Обучающий материал/Linux/SSH.md",
     "Обучающий материал/Docker & nginx/Статусы HTTP запросов.md",
-    "Обучающий материал/Linux/Управление Linux.md",
-    "Обучающий материал/Linux/Redis.md",
     "Обучающий материал/Linux/phpmyadmin.md",
     "Обучающий материал/Linux/PHP.md",
     "Обучающий материал/Linux/npm & nvm.md",
     "Обучающий материал/Linux/Nginx.md",
     "Обучающий материал/Linux/MySQL.md",
     "Обучающий материал/Linux/Linux.canvas",
-    "Обучающий материал/Linux/Права.md",
-    "Обучающий материал/Linux/Пользователи.md",
-    "Обучающий материал/Linux/Передача файлов по ssh.md",
     "Обучающий материал/Linux/Группы.md",
     "Обучающий материал/Laravel/Laravel.canvas",
     "Обучающий материал/Docker & nginx/phpmyadmin.md",
     "Обучающий материал/Docker & nginx/Docker & nginx & php.md",
     "Обучающий материал/Laravel/Guzzle.md",
     "Обучающий материал/Docker & nginx/Docker & nginx.canvas",
-    "Обучающий материал/Docker & nginx/Docker команды.md",
     "Обучающий материал/Linux",
     "Обучающий материал/Laravel/OAuth2.md",
     "Обучающий материал/Laravel/Laravel-permission.md",
-    "Обучающий материал/Laravel/Сидеры.md",
     "Обучающий материал/Laravel/Commands.md",
-    "Обучающий материал/Laravel/Form Request.md",
-    "Обучающий материал/Laravel/Установка.md",
-    "Обучающий материал/Laravel/JWT токены.md",
     "Обучающий материал/Laravel",
     "Обучающий материал/Docker & nginx",
     "Тонарная авторизация",
