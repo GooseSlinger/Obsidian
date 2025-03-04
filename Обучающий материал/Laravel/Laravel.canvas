@@ -1,7 +1,7 @@
 {
 	"nodes":[
 		{"id":"30ef4f8b31fd05bb","type":"file","file":"Обучающий материал/Laravel/Установка.md","x":-155,"y":-1880,"width":400,"height":400},
-		{"id":"522abdad35ec9a00","type":"file","file":"Обучающий материал/Laravel/Сидеры.md","x":-555,"y":-1400,"width":400,"height":400},
+		{"id":"522abdad35ec9a00","type":"file","file":"Обучающий материал/Laravel/БД/seeders.md","x":-555,"y":-1400,"width":400,"height":400},
 		{"id":"b123a01830b626c9","type":"file","file":"Обучающий материал/Laravel/Commands.md","x":245,"y":-1400,"width":400,"height":400},
 		{"id":"922357617b662c34","type":"text","text":"Laravel API","x":-80,"y":-680,"width":250,"height":60,"color":"5"},
 		{"id":"b1ab87672424b2c6","type":"file","file":"Обучающий материал/Laravel/OAuth2.md","x":-480,"y":-480,"width":400,"height":400},

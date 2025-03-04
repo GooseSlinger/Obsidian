@@ -214,3 +214,4 @@ DB::table('users')->get();
 $queries = DB::getQueryLog();
 dd($queries);
 ```
+

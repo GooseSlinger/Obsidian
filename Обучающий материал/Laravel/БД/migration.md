@@ -80,7 +80,18 @@ $blueprint->json($column);
 $table->json('settings');
 ```
 
-### 3. Методы для первичных ключей и индексов
+### 3. Методы для изменения столбцов
+```php
+// Изменение типа или атрибутов существующего столбца
+$blueprint-><тип_столбца>($column)->change();
+// Пример: изменение типа столбца description на text
+$table->text('description')->change();
+
+// Важно: метод change() требует установки пакета doctrine/dbal
+// Установка: composer require doctrine/dbal
+```
+
+### 4. Методы для первичных ключей и индексов
 ```php
 // Первичный ключ
 $blueprint->primary($columns);
@@ -108,7 +119,7 @@ $blueprint->dropUnique($index);
 $table->dropUnique('users_email_unique');
 ```
 
-### 4. Методы для внешних ключей
+### 5. Методы для внешних ключей
 ```php
 // Внешний ключ с автоматическим связыванием (Laravel 8+)
 $blueprint->foreignId($column)->constrained();
@@ -133,7 +144,7 @@ $blueprint->dropForeign($index);
 $table->dropForeign('posts_user_id_foreign');
 ```
 
-### 5. Методы для временных меток
+### 6. Методы для временных меток
 ```php
 // Создает created_at и updated_at
 $blueprint->timestamps();
@@ -156,7 +167,7 @@ $blueprint->rememberToken();
 $table->rememberToken();
 ```
 
-### 6. Условные методы
+### 7. Условные методы
 ```php
 // Добавление после указанного столбца
 $blueprint->after($column);
@@ -184,7 +195,7 @@ $blueprint->comment($comment);
 $table->string('title')->comment('Название статьи');
 ```
 
-### 7. Методы для удаления столбцов
+### 8. Методы для удаления столбцов
 ```php
 // Удаление одного или нескольких столбцов
 $blueprint->dropColumn($columns);
@@ -212,7 +223,7 @@ $blueprint->dropForeign($index);
 $table->dropForeign('posts_user_id_foreign');
 ```
 
-### 8. Методы для проверки существования
+### 9. Методы для проверки существования
 ```php
 // Проверка существования таблицы
 Schema::hasTable($table);
@@ -229,7 +240,8 @@ if (Schema::hasColumn('users', 'email')) {
 }
 ```
 
-### 9. Дополнительные методы
+### 10. Дополнительные методы
+#### a) Настройка таблицы
 ```php
 // Установка движка таблицы
 $blueprint->engine = 'InnoDB';
@@ -246,4 +258,80 @@ $blueprint->collation = 'utf8mb4_unicode_ci';
 // Пример:
 $table->collation = 'utf8mb4_unicode_ci';
 ```
+#### b) Создание временных таблиц
+```php
+// Создание временной таблицы
+Schema::create('temp_table', function (Blueprint $table) {
+    $table->id();
+}, true); // Третий параметр указывает, что таблица временная
+```
+#### c) Создание хранимых процедур и триггеров
+```php
+// Выполнение RAW SQL для создания хранимой процедуры
+DB::unprepared("
+    CREATE PROCEDURE my_procedure()
+    BEGIN
+        SELECT * FROM users;
+    END
+");
 
+// Создание триггера
+DB::unprepared("
+    CREATE TRIGGER my_trigger BEFORE INSERT ON users
+    FOR EACH ROW SET NEW.created_at = NOW();
+");
+```
+#### d) Переименование столбца
+```php
+// Переименование столбца
+$blueprint->renameColumn($from, $to);
+// Пример:
+$table->renameColumn('old_name', 'new_name');
+```
+#### e) Проверка существования индекса
+```php
+// Проверка существования индекса
+Schema::hasIndex($table, $index);
+// Пример:
+if (Schema::hasIndex('users', 'email_index')) {
+    // Код
+}
+```
+#### f) Проверка существования внешнего ключа
+```php
+// Проверка существования внешнего ключа
+Schema::hasForeignKey($table, $foreign_key);
+// Пример:
+if (Schema::hasForeignKey('posts', 'user_id_foreign')) {
+    // Код
+}
+```
+#### g) Добавление комментария к таблице
+```php
+// Добавление комментария к таблице
+$blueprint->comment($comment);
+// Пример:
+$table->comment('Это таблица пользователей');
+```
+
+### 11. Прочие методы работы с миграциями
+
+#### a) Отключение foreign key checks
+```php
+// Отключение проверки внешних ключей
+DB::statement('SET FOREIGN_KEY_CHECKS=0');
+
+// Включение проверки внешних ключей
+DB::statement('SET FOREIGN_KEY_CHECKS=1');
+```
+#### b) Оптимизация таблицы
+```php
+// Оптимизация таблицы
+DB::statement('OPTIMIZE TABLE users');
+```
+#### c) Резервное копирование таблицы
+```php
+// Создание резервной копии таблицы
+DB::statement('CREATE TABLE backup_users LIKE users');
+DB::statement('INSERT INTO backup_users SELECT * FROM users');
+```
