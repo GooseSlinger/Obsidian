@@ -9,3 +9,14 @@ sudo apt install redis-server
 ```bash
 sudo systemctl status redis
 ```
+
+3. Установка PHP расширения для Redis
+```bash
+sudo apt install php-redis -y
+```
+После установки перезапустите веб-сервер:
+```bash
+sudo systemctl restart apache2   # Для Apache
+# или
+sudo systemctl restart nginx     # Для Nginx
+```
