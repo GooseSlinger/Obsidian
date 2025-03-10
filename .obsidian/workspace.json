@@ -145,6 +145,21 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "0a2171b72b42c25b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Обучающий материал/Linux/Управление Linux.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Структура Управление Linux"
+            }
           }
         ],
         "currentTab": 3
@@ -164,7 +179,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fff66b9cf8ab9f89",
+  "active": "eb429f079e107d19",
   "lastOpenFiles": [
     "Обучающий материал/Linux/git.md",
     "Обучающий материал/Laravel/Redis.md",
