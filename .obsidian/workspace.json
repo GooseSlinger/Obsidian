@@ -118,9 +118,23 @@
               "icon": "lucide-file",
               "title": "mailhog"
             }
+          },
+          {
+            "id": "32070c5b3e2bc8ed",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": "conflict-files-obsidian-git.md",
+                "bFile": "conflict-files-obsidian-git.md",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: conflict-files-obsidian-git"
+            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -251,13 +265,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Обучающий материал/Docker & nginx/контейнеры/mailhog.md",
+                "file": "conflict-files-obsidian-git.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Структура mailhog"
+              "title": "Структура conflict-files-obsidian-git"
             }
           }
         ],
@@ -278,8 +292,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8142bb50c4518b37",
+  "active": "879f3bac8b35f51f",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "Обучающий материал/Docker & nginx/контейнеры/mailhog.md",
     "Обучающий материал/Laravel/Commands.md",
     "Обучающий материал/Linux/Права.md",
     "Обучающий материал/Docker & nginx/Docker команды.md",
@@ -300,7 +316,6 @@
     "Обучающий материал/Laravel/БД/seeders.md",
     "Обучающий материал/Laravel/БД/migration.md",
     "Обучающий материал/Linux/phpmyadmin.md",
-    "Обучающий материал/Docker & nginx/контейнеры/mailhog.md",
     "Обучающий материал/Docker & nginx/контейнеры/SQL.md",
     "Обучающий материал/Docker & nginx/контейнеры/phpmyadmin.md",
     "Обучающий материал/Docker & nginx/контейнеры/PHP.md",
