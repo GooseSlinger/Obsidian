@@ -20,3 +20,9 @@ php artisan cache:clear
 php artisan route:clear
 php artisan view:clear
 ```
+
+5. Запуск очередей
+```bash
+php artisan queue:work
+```
+
