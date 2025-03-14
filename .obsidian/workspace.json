@@ -265,13 +265,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Структура conflict-files-obsidian-git"
+              "title": "Структура"
             }
           }
         ],
@@ -292,7 +291,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "879f3bac8b35f51f",
+  "active": "af6c75ac77fcecdb",
   "lastOpenFiles": [
     "conflict-files-obsidian-git.md",
     "Обучающий материал/Docker & nginx/контейнеры/mailhog.md",
