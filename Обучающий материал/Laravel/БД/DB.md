@@ -14,30 +14,77 @@ DB::table('users')->pluck('name'); // Возвращает коллекцию з
 ```
 ### b) Условия (WHERE)
 ```php
-// Простое условие
-DB::table('users')->where('id', 1)->get();
+// Базовый where
+$users = DB::table('users')->where('id', '=', 1)->get();
 
-// OR условие
-DB::table('users')
+// orWhere
+$users = DB::table('users')
     ->where('id', 1)
     ->orWhere('name', 'John')
     ->get();
 
-// Сложные условия
-DB::table('users')
+// Группировка условий (nested where)
+$users = DB::table('users')
     ->where(function ($query) {
         $query->where('votes', '>', 100)
               ->orWhere('title', 'Admin');
     })
     ->get();
 
-// Дополнительные операторы
-DB::table('users')->whereNull('deleted_at')->get(); // WHERE deleted_at IS NULL
-DB::table('users')->whereNotNull('email')->get(); // WHERE email IS NOT NULL
-DB::table('users')->whereIn('id', [1, 2, 3])->get(); // WHERE id IN (1, 2, 3)
-DB::table('users')->whereNotIn('id', [1, 2, 3])->get(); // WHERE id NOT IN (1, 2, 3)
-DB::table('users')->whereBetween('age', [18, 65])->get(); // WHERE age BETWEEN 18 AND 65
-DB::table('users')->whereDate('created_at', '2023-01-01')->get(); // WHERE created_at = '2023-01-01'
+// whereNull
+$users = DB::table('users')->whereNull('deleted_at')->get();
+
+// whereNotNull
+$users = DB::table('users')->whereNotNull('email')->get();
+
+// whereIn
+$users = DB::table('users')->whereIn('id', [1, 2, 3])->get();
+
+// whereNotIn
+$users = DB::table('users')->whereNotIn('id', [1, 2, 3])->get();
+
+// whereBetween
+$users = DB::table('users')->whereBetween('age', [18, 65])->get();
+
+// whereNotBetween
+$users = DB::table('users')->whereNotBetween('age', [18, 65])->get();
+
+// whereDate
+$users = DB::table('users')->whereDate('created_at', '2023-01-01')->get();
+
+// whereDay
+$users = DB::table('users')->whereDay('created_at', '15')->get();
+
+// whereMonth
+$users = DB::table('users')->whereMonth('created_at', '05')->get();
+
+// whereYear
+$users = DB::table('users')->whereYear('created_at', '2023')->get();
+
+// whereTime
+$users = DB::table('users')->whereTime('created_at', '14:00:00')->get();
+
+// Дополнительные операторы сравнения
+$users = DB::table('users')->where('age', '>', 18)->get(); // больше
+$users = DB::table('users')->where('age', '<', 65)->get(); // меньше
+$users = DB::table('users')->where('age', '<=', 65)->get(); // меньше или равно
+$users = DB::table('users')->where('age', '>=', 18)->get(); // больше или равно
+
+// whereExists (проверка существования записей в другой таблице)
+$users = DB::table('users')
+    ->whereExists(function ($query) {
+        $query->select(DB::raw(1))
+              ->from('orders')
+              ->whereRaw('orders.user_id = users.id');
+    })
+    ->get();
+
+// whereHas (для отношений Eloquent)
+$categories = DB::table('categories')
+    ->whereHas('products', function ($query) {
+        $query->where('status', 'active');
+    })
+    ->get();
 ```
 
 ## 2. Методы для вставки данных

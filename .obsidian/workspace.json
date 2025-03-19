@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "Docker команды"
             }
+          },
+          {
+            "id": "42e0d8b7935297d4",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: workspace.json"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -179,10 +194,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "eb429f079e107d19",
+  "active": "42e0d8b7935297d4",
   "lastOpenFiles": [
-    "Обучающий материал/Linux/Управление Linux.md",
     "conflict-files-obsidian-git.md",
+    "Обучающий материал/Docker & nginx/Docker команды.md",
+    "Обучающий материал/Laravel/Carbon.md",
+    "Обучающий материал/Linux/Управление Linux.md",
     "Обучающий материал/Laravel/БД/seeders.md",
     "Обучающий материал/Laravel/БД/migration.md",
     "Обучающий материал/Laravel/БД/DB.md",
@@ -209,8 +226,6 @@
     "Обучающий материал/Linux/Передача файлов по ssh.md",
     "Обучающий материал/Linux/Группы.md",
     "Обучающий материал/Laravel/Laravel.canvas",
-    "Обучающий материал/Docker & nginx/phpmyadmin.md",
-    "Обучающий материал/Docker & nginx/Docker & nginx & php.md",
     "Обучающий материал/Docker & nginx/Docker & nginx.canvas",
     "Обучающий материал/Linux",
     "Обучающий материал/Laravel",
