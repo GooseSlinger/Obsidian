@@ -48,9 +48,23 @@
               "icon": "lucide-file",
               "title": "SSH"
             }
+          },
+          {
+            "id": "934dfed3f7dbedee",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": "conflict-files-obsidian-git.md",
+                "bFile": "conflict-files-obsidian-git.md",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: conflict-files-obsidian-git"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -208,13 +222,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "36f1d1f875956031",
+  "active": "934dfed3f7dbedee",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "Обучающий материал/Linux/SSH.md",
+    "Обучающий материал/python/with open().md",
     "Обучающий материал/Linux/Nginx.md",
     "Обучающий материал/Linux/Группы.md",
     "Обучающий материал/python/Создание проекта.md",
     "Обучающий материал/Linux/Передача файлов по ssh.md",
-    "Обучающий материал/Linux/SSH.md",
     "Обучающий материал/Linux/Управление Linux.md",
     "Обучающий материал/Linux/git.md",
     "Обучающий материал/Linux/Linux.canvas",
@@ -226,7 +242,6 @@
     "Обучающий материал/Linux/PHP.md",
     "Обучающий материал/Linux/Пользователи.md",
     "Обучающий материал/Linux/Права.md",
-    "conflict-files-obsidian-git.md",
     "Обучающий материал/Docker & nginx/Docker команды.md",
     "Обучающий материал/python/Зависимости.md",
     "Обучающий материал/Laravel/БД/migration.md",
