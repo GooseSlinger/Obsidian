@@ -34,9 +34,23 @@
               "icon": "lucide-file",
               "title": "inflect"
             }
+          },
+          {
+            "id": "521cf1b0bd748b69",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": "conflict-files-obsidian-git.md",
+                "bFile": "conflict-files-obsidian-git.md",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: conflict-files-obsidian-git"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -194,10 +208,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2b26ff8388310a7e",
+  "active": "521cf1b0bd748b69",
   "lastOpenFiles": [
-    "Обучающий материал/python/Зависимости/sqlalchemy.md",
+    "conflict-files-obsidian-git.md",
     "Обучающий материал/python/Зависимости/inflect.md",
+    "Обучающий материал/Linux/Имя компа.md",
+    "Обучающий материал/python/Зависимости/sqlalchemy.md",
     "Обучающий материал/python/Создание проекта.md",
     "Обучающий материал/python/Зависимости/Зависимости.md",
     "Обучающий материал/Linux/Передача файлов по ssh.md",
@@ -215,7 +231,6 @@
     "Обучающий материал/python/os.path.md",
     "Обучающий материал/python/Зависимости",
     "Обучающий материал/Docker & nginx/Статусы HTTP запросов.md",
-    "conflict-files-obsidian-git.md",
     "Обучающий материал/Docker & nginx/Docker команды.md",
     "Обучающий материал/python",
     "Обучающий материал/Laravel/БД/DB.md",
@@ -225,7 +240,6 @@
     "Обучающий материал/Docker & nginx/Docker & nginx.canvas",
     "Обучающий материал/Linux/Группы.md",
     "Обучающий материал/Linux/Пользователи.md",
-    "Обучающий материал/Laravel/Carbon.md",
     "Обучающий материал/GO",
     "Обучающий материал/Docker & nginx/контейнеры",
     "Обучающий материал/Laravel/БД",
