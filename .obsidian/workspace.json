@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Обучающий материал/python/Зависимости/sqlalchemy.md",
+                "file": "Обучающий материал/python/Зависимости/Alembic.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "sqlalchemy"
+              "title": "Alembic"
             }
           }
         ],
@@ -196,15 +196,17 @@
   },
   "active": "0de5aa3c82af0753",
   "lastOpenFiles": [
-    "Обучающий материал/python/Зависимости/Зависимости.md",
-    "Обучающий материал/python/Создание проекта.md",
-    "Обучающий материал/python/Зависимости/Alembic.md",
     "Обучающий материал/python/Зависимости/sqlalchemy.md",
+    "Обучающий материал/Docker & nginx/Статусы HTTP запросов.md",
+    "Обучающий материал/python/Создание проекта.md",
     "Обучающий материал/python/datetime.md",
-    "Обучающий материал/python/os.path.md",
     "Обучающий материал/python/with open().md",
-    "Обучающий материал/Linux/Права.md",
+    "Обучающий материал/python/os.path.md",
     "Обучающий материал/python/Command Line Interface/start.md",
+    "Обучающий материал/Laravel/Guzzle.md",
+    "Обучающий материал/python/Зависимости/Зависимости.md",
+    "Обучающий материал/python/Зависимости/Alembic.md",
+    "Обучающий материал/Linux/Права.md",
     "Обучающий материал/python/Зависимости/inflect.md",
     "Обучающий материал/Linux/Nginx.md",
     "Обучающий материал/Linux/npm & nvm.md",
@@ -223,8 +225,6 @@
     "Обучающий материал/Linux/phpmyadmin.md",
     "Обучающий материал/Linux/PHP.md",
     "Обучающий материал/Linux/Пользователи.md",
-    "Обучающий материал/Docker & nginx/Docker команды.md",
-    "Обучающий материал/python/Зависимости.md",
     "Обучающий материал/python",
     "Обучающий материал/Docker & nginx/Docker & nginx.canvas",
     "Обучающий материал/GO",
