@@ -25,14 +25,14 @@
             "id": "0de5aa3c82af0753",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "Обучающий материал/Laravel/Установка.md",
-                "mode": "source",
-                "source": false
+                "aFile": "conflict-files-obsidian-git.md",
+                "bFile": "conflict-files-obsidian-git.md",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "Установка"
+              "icon": "diff",
+              "title": "Diff: conflict-files-obsidian-git"
             }
           }
         ],
@@ -196,6 +196,8 @@
   },
   "active": "0de5aa3c82af0753",
   "lastOpenFiles": [
+    "Обучающий материал/Laravel/Установка.md",
+    "conflict-files-obsidian-git.md",
     "Обучающий материал/Laravel/Carbon.md",
     "Обучающий материал/Laravel/Commands.md",
     "Обучающий материал/Laravel/Form Request.md",
@@ -209,7 +211,6 @@
     "Обучающий материал/python/os.path.md",
     "Обучающий материал/python/datetime.md",
     "Обучающий материал/Linux/Права.md",
-    "Обучающий материал/Laravel/Установка.md",
     "Обучающий материал/Laravel/БД/seeders.md",
     "Обучающий материал/Laravel/БД/migration.md",
     "Обучающий материал/Laravel/БД/DB.md",
@@ -218,7 +219,6 @@
     "Обучающий материал/Linux/Передача файлов по ssh.md",
     "Обучающий материал/Docker & nginx/Статусы HTTP запросов.md",
     "Обучающий материал/python/Зависимости/Alembic.md",
-    "conflict-files-obsidian-git.md",
     "Обучающий материал/python/Зависимости/sqlalchemy.md",
     "Обучающий материал/python/Command Line Interface/start.md",
     "Обучающий материал/python/Зависимости/Зависимости.md",
