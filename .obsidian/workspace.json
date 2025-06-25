@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Обучающий материал/python/Создание проекта.md",
+                "file": "Обучающий материал/python/with open().md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Создание проекта"
+              "title": "with open()"
             }
           }
         ],
@@ -210,15 +210,15 @@
   },
   "active": "af1fbd66e7aec7e1",
   "lastOpenFiles": [
-    "Обучающий материал/python/Библиотеки/Alembic.md",
-    "Обучающий материал/python/Создание проекта.md",
+    "Обучающий материал/python/os.path.md",
     "Обучающий материал/python/datetime.md",
+    "Обучающий материал/python/Создание проекта.md",
+    "Обучающий материал/python/Библиотеки/Alembic.md",
     "Обучающий материал/python/Command Line Interface/start.md",
     "Обучающий материал/python/Библиотеки/Зависимости.md",
     "Обучающий материал/python/Библиотеки/sqlalchemy.md",
     "Обучающий материал/python/Библиотеки/Factory Boy.md",
     "Обучающий материал/Laravel/Laravel.canvas",
-    "Обучающий материал/python/os.path.md",
     "Обучающий материал/python/with open().md",
     "Обучающий материал/Laravel/Guzzle.md",
     "Обучающий материал/python/Библиотеки/inflect.md",
