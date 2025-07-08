@@ -86,3 +86,21 @@ server {
     client_max_body_size 100M;
 }
 ```
+
+### Конфиг nginx на сервер для fastapi через unix сокет демона
+```nginx
+upstream fastapi_app {
+    server unix:/run/fastapi/fastapi.sock;
+}
+server {
+    listen 80;
+    server_name example.com;
+    location / {
+        proxy_pass http://fastapi_app;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+    }
+}
+```

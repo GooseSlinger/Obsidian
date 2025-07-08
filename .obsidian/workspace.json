@@ -11,14 +11,17 @@
             "id": "440c86a7c87e0c39",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Обучающий материал/Linux/Демоны.md",
-                "mode": "source",
-                "source": false
+                "file": "Обучающий материал/Linux/Linux.canvas",
+                "viewState": {
+                  "x": 108.80898323943364,
+                  "y": -480.7608648364476,
+                  "zoom": -1.2803976154662298
+                }
               },
-              "icon": "lucide-file",
-              "title": "Демоны"
+              "icon": "lucide-layout-dashboard",
+              "title": "Linux"
             }
           }
         ]
@@ -181,6 +184,9 @@
   },
   "active": "440c86a7c87e0c39",
   "lastOpenFiles": [
+    "Обучающий материал/Linux/Linux.canvas",
+    "Обучающий материал/Linux/Nginx.md",
+    "Обучающий материал/Linux/Демоны.md",
     "conflict-files-obsidian-git.md",
     "Обучающий материал/python/Библиотеки/Зависимости.md",
     "Обучающий материал/python/Библиотеки/sqlalchemy.md",
@@ -188,7 +194,6 @@
     "Обучающий материал/python/Библиотеки/Factory Boy.md",
     "Обучающий материал/python/Библиотеки/Alembic.md",
     "Обучающий материал/python/Библиотеки",
-    "Обучающий материал/Linux/Демоны.md",
     "Обучающий материал/Laravel/Laravel очереди.md",
     "Обучающий материал/python/Зависимости/sqlalchemy.md",
     "Обучающий материал/python/Зависимости/inflect.md",
@@ -207,15 +212,12 @@
     "Обучающий материал/python/Command Line Interface/service.md",
     "Обучающий материал/python/Command Line Interface/Start.md",
     "Обучающий материал/python/Command Line Interface",
-    "Обучающий материал/python/datetime.md",
-    "Обучающий материал/python/os.path.md",
     "Обучающий материал/python/Зависимости",
     "Обучающий материал/python",
     "Обучающий материал/Docker & nginx/Docker & nginx.canvas",
     "Обучающий материал/GO",
     "Обучающий материал/Docker & nginx/контейнеры",
     "Обучающий материал/Laravel/БД",
-    "Обучающий материал/Linux/Linux.canvas",
     "Обучающий материал/Laravel/Laravel.canvas",
     "Обучающий материал/Linux",
     "Обучающий материал/Laravel",

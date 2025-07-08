@@ -1,11 +1,14 @@
 {
 	"nodes":[
-		{"id":"4a5bf0aa258910a6","x":-460,"y":-920,"width":400,"height":400,"type":"file","file":"Обучающий материал/Linux/Права.md"},
-		{"id":"13637ee0577c2900","x":-680,"y":-400,"width":400,"height":400,"type":"file","file":"Обучающий материал/Linux/Пользователи.md"},
-		{"id":"4febccfae0617d9e","x":-240,"y":-400,"width":400,"height":400,"type":"file","file":"Обучающий материал/Linux/Группы.md"}
+		{"id":"4a5bf0aa258910a6","type":"file","file":"Обучающий материал/Linux/Права.md","x":-460,"y":-920,"width":400,"height":400},
+		{"id":"13637ee0577c2900","type":"file","file":"Обучающий материал/Linux/Пользователи.md","x":-680,"y":-400,"width":400,"height":400},
+		{"id":"4febccfae0617d9e","type":"file","file":"Обучающий материал/Linux/Группы.md","x":-240,"y":-400,"width":400,"height":400},
+		{"id":"b5d0641e533c77be","x":520,"y":-400,"width":400,"height":400,"type":"file","file":"Обучающий материал/Linux/Nginx.md"},
+		{"id":"70ca290bdfa5a886","x":520,"y":-920,"width":400,"height":400,"type":"file","file":"Обучающий материал/Linux/Демоны.md"}
 	],
 	"edges":[
 		{"id":"e6d8733b553349f2","fromNode":"4a5bf0aa258910a6","fromSide":"bottom","toNode":"13637ee0577c2900","toSide":"top"},
-		{"id":"9421b1553f066648","fromNode":"4a5bf0aa258910a6","fromSide":"bottom","toNode":"4febccfae0617d9e","toSide":"top"}
+		{"id":"9421b1553f066648","fromNode":"4a5bf0aa258910a6","fromSide":"bottom","toNode":"4febccfae0617d9e","toSide":"top"},
+		{"id":"d7977a0a112ef638","fromNode":"70ca290bdfa5a886","fromSide":"bottom","toNode":"b5d0641e533c77be","toSide":"top"}
 	]
 }
