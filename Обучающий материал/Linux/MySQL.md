@@ -57,3 +57,22 @@ sudo mysql -u root -p
 ALTER USER 'root'@'localhost' IDENTIFIED BY 'новый_пароль';
 FLUSH PRIVILEGES;
 ```
+
+### 6. Удаление пользователя
+
+```mysql
+DROP USER 'remote_admin'@'%';
+FLUSH PRIVILEGES;
+```
+
+### 7. Создание пользователя
+```mysql
+CREATE USER 'имя_пользователя'@'хост' IDENTIFIED BY 'пароль';
+GRANT ALL PRIVILEGES ON *.* TO 'newadmin'@'localhost' WITH GRANT OPTION;
+FLUSH PRIVILEGES;
+```
+
+### 7. Просмотр пользователей
+```mysql
+SELECT User, Host FROM mysql.user;
+```
