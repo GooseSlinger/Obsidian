@@ -53,32 +53,18 @@
             "id": "16fc911153636f57",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "Обучающий материал/Linux/Демоны.md",
-                "mode": "source",
-                "source": false
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "Демоны"
-            }
-          },
-          {
-            "id": "009261fd510d9643",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
+              "icon": "diff",
+              "title": "Diff: workspace.json"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -236,10 +222,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "009261fd510d9643",
+  "active": "16fc911153636f57",
   "lastOpenFiles": [
-    "Обучающий материал/Linux/Демоны.md",
     "conflict-files-obsidian-git.md",
+    "Обучающий материал/Linux/Демоны.md",
     "Обучающий материал/python/Зависимости/Alembic.md",
     "Обучающий материал/python/Зависимости",
     "Обучающий материал/Linux/Группы.md",
