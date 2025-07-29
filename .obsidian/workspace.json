@@ -41,30 +41,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Обучающий материал/Linux/Группы.md",
+                "file": "Обучающий материал/Docker & nginx/Статусы HTTP запросов.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Группы"
-            }
-          },
-          {
-            "id": "16fc911153636f57",
-            "type": "leaf",
-            "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": ".obsidian/workspace.json",
-                "bFile": ".obsidian/workspace.json",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: workspace.json"
+              "title": "Статусы HTTP запросов"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -222,13 +208,26 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "16fc911153636f57",
+  "active": "af1fbd66e7aec7e1",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
+    "Обучающий материал/Docker & nginx/Docker & nginx.canvas",
+    "Обучающий материал/Docker & nginx/Docker команды.md",
+    "Обучающий материал/Linux/Nginx.md",
+    "Обучающий материал/Linux/Группы.md",
+    "Обучающий материал/Laravel/Carbon.md",
+    "Обучающий материал/Linux/Пользователи.md",
+    "Обучающий материал/Linux/Имя компа.md",
+    "Обучающий материал/Linux/SSH.md",
+    "Обучающий материал/Laravel/Laravel-permission.md",
+    "Обучающий материал/Docker & nginx/контейнеры/PHP.md",
+    "Обучающий материал/Docker & nginx/контейнеры/phpmyadmin.md",
+    "Обучающий материал/Docker & nginx/контейнеры/SQL.md",
+    "Обучающий материал/Docker & nginx/Статусы HTTP запросов.md",
+    "Обучающий материал/Linux/git.md",
     "Обучающий материал/Linux/Демоны.md",
+    "conflict-files-obsidian-git.md",
     "Обучающий материал/python/Зависимости/Alembic.md",
     "Обучающий материал/python/Зависимости",
-    "Обучающий материал/Linux/Группы.md",
     "Обучающий материал/Linux/Демоны",
     "Обучающий материал/python/Создание проекта.md",
     "Обучающий материал/Linux/MySQL.md",
@@ -236,24 +235,10 @@
     "Обучающий материал/Linux/Redis.md",
     "Обучающий материал/Linux/PHP.md",
     "Обучающий материал/Linux/npm & nvm.md",
-    "Обучающий материал/Linux/Nginx.md",
-    "Обучающий материал/Docker & nginx/Docker команды.md",
-    "Обучающий материал/Docker & nginx/Docker & nginx.canvas",
-    "Обучающий материал/Docker & nginx/Статусы HTTP запросов.md",
-    "Обучающий материал/Linux/git.md",
     "Обучающий материал/Linux/Права.md",
-    "Обучающий материал/Laravel/Carbon.md",
     "Обучающий материал/python/with open().md",
-    "Обучающий материал/Laravel/Laravel-permission.md",
     "Обучающий материал/Laravel/Laravel очереди.md",
-    "Обучающий материал/python/os.path.md",
-    "Обучающий материал/python/datetime.md",
-    "Обучающий материал/python/Библиотеки/Alembic.md",
-    "Обучающий материал/python/Command Line Interface/start.md",
-    "Обучающий материал/python/Библиотеки/sqlalchemy.md",
-    "Обучающий материал/python/Библиотеки/Factory Boy.md",
     "Обучающий материал/Laravel/Laravel.canvas",
-    "Обучающий материал/Laravel/Guzzle.md",
     "Обучающий материал/python/Библиотеки",
     "Обучающий материал/python/Command Line Interface",
     "Обучающий материал/Linux/Linux.canvas",
