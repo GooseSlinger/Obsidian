@@ -94,3 +94,9 @@ def load_initial_data():
 if __name__ == "__main__":
 	load_initial_data()
 ```
+
+### 3. Запуск скрипта
+```bash
+python -m scripts.status_order_script
+```
+не забываем добавить -m а то будут танцы с бубном
