@@ -95,7 +95,7 @@ if __name__ == "__main__":
 	load_initial_data()
 ```
 
-### 3. Запуск скрипта
+### 4. Запуск скрипта
 ```bash
 python -m scripts.status_order_script
 ```
